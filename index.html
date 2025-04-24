@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PracticeTime.ai</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Geologica:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f43d381667d23d1c01c38716cd6ae33939430d16?placeholderIfAbsent=true" alt="PracticeTime.ai" class="logo" />
+        <h1 class="tagline">
+          <span>the more you</span>
+          <span class="highlight">practice!</span>
+        </h1>
+        <div class="practice-illustration">
+          <svg
+            width="142"
+            height="122"
+            viewBox="0 0 142 122"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="practice-icon"
+          >
+            <path
+              d="M1 27.3447C25.2017 10.5269 76.9959 15.4575 91.4948 37.4728C96.3756 44.8838 92.6925 57.4736 78.9832 52.9366C66.2483 48.722 65.096 29.7458 70.0428 17.7397C77.4662 -0.277324 99.1568 -1.16802 115.894 3.17802C193 52.9366 70.0428 127.857 32.8367 109.245M32.8367 109.245L51.9388 96.5102C51.9388 96.5102 33.8163 108.592 32.8367 109.245ZM32.8367 109.245C31.8571 109.898 51.9388 121 51.9388 121"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-dasharray="6 6"
+            ></path>
+          </svg>
+        </div>
+        <h1 class="tagline">
+          <span>the better you</span>
+          <span class="highlight">become!</span>
+        </h1>
+      </header>
+      <button id="themeToggle" class="theme-toggle-btn"> 
+      ◑ Mode
+     </button>
+
+      <nav class="subject-nav">
+        <div class="subject-item subject-math">
+          <span>Math</span>
+          <div class="live-badge">
+            <svg
+              width="67"
+              height="31"
+              viewBox="0 0 67 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="live-icon"
+            >
+              <rect
+                x="2.41002"
+                y="0.187487"
+                width="64.3596"
+                height="25.5"
+                rx="12.75"
+                transform="rotate(5 2.41002 0.187487)"
+                fill="#FFDDDD"
+              ></rect>
+              <rect
+                x="2.41002"
+                y="0.187487"
+                width="64.3596"
+                height="25.5"
+                rx="12.75"
+                transform="rotate(5 2.41002 0.187487)"
+                stroke="#FF5757"
+                stroke-width="1.5"
+              ></rect>
+              <circle
+                cx="14.9275"
+                cy="14.0813"
+                r="2"
+                transform="rotate(5 14.9275 14.0813)"
+                fill="#FF5757"
+              ></circle>
+              <circle
+                cx="14.9275"
+                cy="14.0813"
+                r="4"
+                transform="rotate(5 14.9275 14.0813)"
+                stroke="#FF5757"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              ></circle>
+              <text
+                transform="translate(27.9258 3.17285) rotate(5)"
+                fill="#FF5757"
+                xml:space="preserve"
+                style="white-space: pre"
+                font-family="Geologica"
+                font-size="12"
+                letter-spacing="0em"
+              >
+                <tspan x="0" y="16.2">Live!</tspan>
+              </text>
+            </svg>
+          </div>
+        </div>
+        <div class="subject-item">English</div>
+        <div class="subject-item">Coding</div>
+      </nav>
+
+      <button class="practice-button">Let's Practice</button>
+
+      <main class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-image-container yellow-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f362c9f9f06d526f7152a921fe06f65e66d2a9d9?placeholderIfAbsent=true" alt="Daily Practice" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">10 Mins of Daily Practice!</h2>
+            <p class="feature-description">
+              Build skills quickly with short, daily practice sessions
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image-container red-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c7b884a0ca3a46bb1982fc7a90c66ee1bd63bc6b?placeholderIfAbsent=true" alt="Level-Based Practice" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">
+              Personalized, Level-Based Practice Sheets
+            </h2>
+            <p class="feature-description">
+              Get customized sheets tailored to each learner's pace and ability
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image-container green-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4465c59e41ba1c3e9f3b35818f0cbe024b0d885f?placeholderIfAbsent=true" alt="Learn by Doing" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">No Classes - Learn by Doing</h2>
+            <p class="feature-description">
+              Master concepts independently through focused, hands-on practice
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image-container teal-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/474222c49af0573ea0c069b5b2b42b6c334640b0?placeholderIfAbsent=true" alt="Real-World Learning" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">
+              Math Integrated with Real-World Learning Bubbles
+            </h2>
+            <p class="feature-description">
+              Discover Math in everyday life, making learning meaningful and
+              practical
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image-container purple-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9eebeb646c473d111016f3b98988472f010dbf9c?placeholderIfAbsent=true" alt="Practice Anytime" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">
+              Practice Anytime, Anywhere - Online or Offline
+            </h2>
+            <p class="feature-description">
+              Enjoy the flexibility to access Practice Sheets online or take
+              printouts for offline practice
+            </p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-image-container blue-bg">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e75cb7bbd4aa9c47c666438c4cb313ff3117218?placeholderIfAbsent=true" alt="Smart Reporting" class="feature-image" />
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">Smart Reporting</h2>
+            <p class="feature-description">
+              Track progress easily with intelligent reports that highlight
+              growth and areas to improve
+            </p>
+          </div>
+        </article>
+      </main>
+
+      <section class="contact-section" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px;">
+        <style>
+          .contact-heading {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+      
+          .contact-heading .highlight {
+            color: #4a90e2;
+            font-weight: bold;
+          }
+      
+          .contact-subheading {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #555;
+          }
+      
+          .contact-form .form-group {
+            margin-bottom: 20px;
+          }
+      
+          .form-label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+          }
+      
+          .form-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+          }
+      
+          .submit-button {
+            width: 100%;
+            padding: 14px;
+            background: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+          }
+      
+          .submit-button:hover {
+            background: #35d85e;
+          }
+      
+          .required {
+            color: red;
+            font-weight: bold;
+          }
+      
+          .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+          }
+      
+          .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+          }
+      
+          .radio-button {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background 0.2s, border 0.2s;
+          }
+      
+          .radio-option input {
+            display: none;
+          }
+      
+          .radio-option input:checked + .radio-button {
+            background-color: #4a90e2;
+            border-color: #4a90e2;
+          }
+      
+          .custom-select {
+            position: relative;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 1rem;
+            color: #333;
+            cursor: pointer;
+            user-select: none;
+          }
+      
+          .selected-option::after {
+            content: "▼";
+            position: absolute;
+            right: 16px;
+            top: 14px;
+            font-size: 0.8rem;
+            color: #666;
+          }
+      
+          .options-list {
+            list-style: none;
+            position: absolute;
+            width: 100%;
+            background: #fff;
+            border: 1px solid #ccc;
+            max-height: 200px;
+            overflow-y: auto;
+            border-radius: 0 0 8px 8px;
+            display: none;
+            z-index: 10;
+          }
+      
+          .options-list li {
+            padding: 10px 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+          }
+      
+          .options-list li:hover {
+            background: #f0f0f0;
+          }
+      
+          /* Popup Notification */
+          .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            color: white;
+            padding: 14px 20px;
+            border-radius: 8px;
+            display: none;
+            z-index: 999;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInOut 3s ease forwards;
+          }
+      
+          .popup.success {
+            background: #4CAF50;
+          }
+      
+          .popup.error {
+            background: #e74c3c;
+          }
+      
+          @keyframes fadeInOut {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { opacity: 0; }
+          }
+        </style>
+      
+        <h2 class="contact-heading">
+          <span>when kids have</span>
+          <span class="highlight"> fun,</span>
+          <span>they</span>
+          <span class="highlight"> learn more!</span>
+        </h2>
+        <p class="contact-subheading">
+          Complete the form and our team will get in touch to help your child grow!
+        </p>
+      
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label class="form-label">Parent Name</label>
+            <input type="text" class="form-input" id="parent-name" placeholder="Your name" />
+          </div>
+      
+          <div class="form-group">
+            <label class="form-label">Child Name</label>
+            <input type="text" class="form-input" id="child-name" placeholder="Your cutie pie name" />
+          </div>
+      
+          <div class="form-group">
+            <label class="form-label">WhatsApp Number</label>
+            <input type="tel" class="form-input" id="whatsapp" placeholder="Your WhatsApp number" />
+          </div>
+      
+          <div class="form-group">
+            <label class="form-label">Grade</label>
+            <div class="custom-select" id="grade-select">
+              <div class="selected-option" id="selected-grade">Your child grade</div>
+              <ul class="options-list">
+                <li>Nursery</li>
+                <li>KG</li>
+                <li>1st</li>
+                <li>2nd</li>
+                <li>3rd</li>
+                <li>4th</li>
+                <li>5th</li>
+                <li>6th</li>
+                <li>7th</li>
+                <li>8th</li>
+                <li>9th</li>
+                <li>10th</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <label class="form-label">School Board <span class="required">*</span></label>
+            <div class="radio-group" id="board-group">
+              <label class="radio-option">
+                <input type="radio" name="board" value="CBSE" />
+                <div class="radio-button"></div>
+                <span>CBSE</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="board" value="ICSE" />
+                <div class="radio-button"></div>
+                <span>ICSE</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="board" value="IB" />
+                <div class="radio-button"></div>
+                <span>IB</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="board" value="IGCSE" />
+                <div class="radio-button"></div>
+                <span>IGCSE</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="board" value="OTHERS" />
+                <div class="radio-button"></div>
+                <span>OTHERS</span>
+              </label>
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <label class="form-label">City</label>
+            <input type="text" class="form-input" id="city" placeholder="Enter your City" />
+          </div>
+      
+          <button type="submit" class="submit-button">Submit!</button>
+        </form>
+      
+        <div class="popup" id="popup-msg"></div>
+      
+        <script>
+          const selectBox = document.getElementById("grade-select");
+          const selected = document.getElementById("selected-grade");
+          const optionsList = selectBox.querySelector(".options-list");
+      
+          selectBox.addEventListener("click", () => {
+            optionsList.style.display = optionsList.style.display === "block" ? "none" : "block";
+          });
+      
+          optionsList.querySelectorAll("li").forEach((option) => {
+            option.addEventListener("click", (e) => {
+              selected.textContent = option.textContent;
+              optionsList.style.display = "none";
+              e.stopPropagation();
+            });
+          });
+      
+          document.addEventListener("click", (e) => {
+            if (!selectBox.contains(e.target)) {
+              optionsList.style.display = "none";
+            }
+          });
+      
+          const form = document.getElementById("contact-form");
+          const popup = document.getElementById("popup-msg");
+      
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+      
+            const parent = document.getElementById("parent-name").value.trim();
+            const child = document.getElementById("child-name").value.trim();
+            const whatsapp = document.getElementById("whatsapp").value.trim();
+            const grade = selected.textContent.trim();
+            const board = document.querySelector("input[name='board']:checked");
+            const city = document.getElementById("city").value.trim();
+      
+            if (!parent || !child || !whatsapp || grade === "Your child grade" || !board || !city) {
+              showPopup("Please fill out the complete form.", "error");
+              return;
+            }
+      
+            showPopup("Form submitted successfully!", "success");
+            // You can reset form here if needed: form.reset();
+          });
+      
+          function showPopup(message, type) {
+            popup.textContent = message;
+            popup.className = `popup ${type}`;
+            popup.style.display = "block";
+            setTimeout(() => {
+              popup.style.display = "none";
+            }, 3000);
+          }
+
+
+
+
+          
+  const themeToggle = document.getElementById("themeToggle");
+  const body = document.body;
+
+  // Default to light mode
+  body.classList.add("light-mode");
+
+  themeToggle.addEventListener("click", () => {
+    if (body.classList.contains("light-mode")) {
+      body.classList.remove("light-mode");
+      body.classList.add("dark-mode");
+    } else {
+      body.classList.remove("dark-mode");
+      body.classList.add("light-mode");
+    }
+  });
+
+
+
+
+
+
+
+
+
+        </script>
+      </section>
+      
+    </div>
+  </body>
+</html>
