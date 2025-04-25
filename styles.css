@@ -82,19 +82,23 @@
   
   .theme-toggle-btn {
     position: fixed;
-    top: 10px;
-    right: 5px;
-    padding: 8px 16px;
+    top: 30px;
+    right: 20px;
+    padding: 5px 4px;
     border: none;
-    background-color: #00a86b;
-    color: white;
-    border-radius: 8px;
+    background-color: #7dd4ee;
+    color: rgb(22, 11, 11);
+    border-radius: 60px;
     cursor: pointer;
     font-weight: bold;
     z-index: 1000;
-  }
-  
+    transition: background-color 0.3s ease;
+}
 
+.theme-toggle-btn:hover {
+    background-color: green;
+    color: white; /* Optional: changes text color on hover for better contrast */
+}
   .practice-icon {
     width: 100px;
     height: auto;
